@@ -1,0 +1,11 @@
+Generating folder structure... 
+ 
+Folder PATH listing for volume Windows
+Volume serial number is 82F0-E752
+C:.
+|   folder_tree.txt
+|   
+\---auth
+        LoginEndpoint.cs
+        SignupEndpoint.cs
+        

@@ -1,0 +1,111 @@
+Generating folder structure... 
+ 
+Folder PATH listing for volume Windows
+Volume serial number is 82F0-E752
+C:.
+|   folder_tree.txt
+|   
++---.idea
+|   |   .gitignore
+|   |   AndroidProjectSystem.xml
+|   |   dataSources.local.xml
+|   |   dataSources.xml
+|   |   indexLayout.xml
+|   |   projectSettingsUpdater.xml
+|   |   sqldialects.xml
+|   |   workspace.xml
+|   |   
+|   +---dataSources
+|   |   |   574b1fc2-67c0-4d65-81f7-fd3ff92586e1.xml
+|   |   |   
+|   |   \---574b1fc2-67c0-4d65-81f7-fd3ff92586e1
+|   |       \---storage_v2
+|   |           \---_src_
+|   |               \---database
+|   |                   |   postgres.edMnLQ.meta
+|   |                   |   
+|   |                   \---postgres.edMnLQ
+|   |                       \---schema
+|   |                               information_schema.FNRwLQ.meta
+|   |                               pg_catalog.0S1ZNQ.meta
+|   |                               public.abK9xQ.meta
+|   |                               
+|   \---inspectionProfiles
+|           Project_Default.xml
+|           
++---boilerplate-client
+|   \---src
+|           App.js
+|           index.js
+|           
++---Boilerplate.Api
+|   |   appsettings.Development.json
+|   |   appsettings.json
+|   |   Boilerplate.Api.csproj
+|   |   Boilerplate.Api.http
+|   |   Program.cs
+|   |   
+|   +---bin
+|   |   \---Debug
+|   |       \---net9.0
+|   +---Boilerplate.Api
+|   |   |   appsettings.Development.json
+|   |   |   appsettings.json
+|   |   |   Boilerplate.Api.csproj
+|   |   |   Boilerplate.Api.http
+|   |   |   Program.cs
+|   |   |   
+|   |   +---obj
+|   |   |       Boilerplate.Api.csproj.nuget.dgspec.json
+|   |   |       Boilerplate.Api.csproj.nuget.g.props
+|   |   |       Boilerplate.Api.csproj.nuget.g.targets
+|   |   |       project.assets.json
+|   |   |       project.nuget.cache
+|   |   |       
+|   |   \---Properties
+|   |           launchSettings.json
+|   |           
+|   +---Controllers
+|   |       AuthController.cs
+|   |       
+|   +---Data
+|   |       AppDbContext.cs
+|   |       
+|   +---Models
+|   |       AppUser.cs
+|   |       Group.cs
+|   |       GroupPermission.cs
+|   |       Permission.cs
+|   |       UserGroup.cs
+|   |       
+|   +---obj
+|   |   |   Boilerplate.Api.csproj.EntityFrameworkCore.targets
+|   |   |   Boilerplate.Api.csproj.nuget.dgspec.json
+|   |   |   Boilerplate.Api.csproj.nuget.g.props
+|   |   |   Boilerplate.Api.csproj.nuget.g.targets
+|   |   |   project.assets.json
+|   |   |   project.nuget.cache
+|   |   |   
+|   |   \---Debug
+|   |       \---net9.0
+|   |           |   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+|   |           |   Boilerplate.Api.AssemblyInfo.cs
+|   |           |   Boilerplate.Api.AssemblyInfoInputs.cache
+|   |           |   Boilerplate.Api.assets.cache
+|   |           |   Boilerplate.Api.csproj.AssemblyReference.cache
+|   |           |   Boilerplate.Api.csproj.CoreCompileInputs.cache
+|   |           |   Boilerplate.Api.csproj.FileListAbsolute.txt
+|   |           |   Boilerplate.Api.GeneratedMSBuildEditorConfig.editorconfig
+|   |           |   Boilerplate.Api.GlobalUsings.g.cs
+|   |           |   Boilerplate.Api.MvcApplicationPartsAssemblyInfo.cache
+|   |           |   Boilerplate.Api.MvcApplicationPartsAssemblyInfo.cs
+|   |           |   
+|   |           +---ref
+|   |           +---refint
+|   |           \---staticwebassets
+|   \---Properties
+|           launchSettings.json
+|           
+\---DB Files
+        createDB.sql
+        
