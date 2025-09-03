@@ -42,11 +42,11 @@ public class LoginEndpoint : IEndpoint
                 expires: DateTime.UtcNow.AddHours(1),
                 signingCredentials: creds);
 
-            return Results.Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) })
-                .WithName("Login")
-                .WithTags("Auth")
-                .WithOpenApi();
-        });
+            return Results.Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
+        })
+        .WithName("Login")
+        .WithTags("Auth")
+        .WithOpenApi();
     }
 }
 
